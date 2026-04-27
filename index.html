@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Me Coffee DApp</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main class="card">
+        <h1>☕ Buy Me Coffee</h1>
+        <p class="subtitle">Minimal HTML/JS site for smart contract actions</p>
+
+        <div class="actions">
+            <button id="btnConnect">Connect</button>
+            <button id="btnBuyCoffee">Buy Coffee</button>
+            <button id="btnGetBalance">Get Balance</button>
+            <button id="btnWithdraw">Withdraw</button>
+        </div>
+
+        <section class="info">
+            <p><strong>Wallet:</strong> <span id="walletAddress">Not connected</span></p>
+            <p><strong>Contract Balance:</strong> <span id="contractBalance">-</span></p>
+            <p id="status">Ready.</p>
+        </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
